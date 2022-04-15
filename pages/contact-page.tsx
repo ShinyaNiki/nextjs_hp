@@ -1,5 +1,6 @@
 import { Layout } from "../components/Layout";
 import Image from "next/image";
+
 const Contact = () => {
   return (
     <Layout title="Contact">
@@ -17,7 +18,7 @@ const Contact = () => {
           />
         </div>
         <div className="mt-4">
-          <p className="font-bold">Address</p>
+          <p className="font-bold">Addresss</p>
           <p className="text-xs mt-2 text-gray-600">City A</p>
           <p className="font-bold mt-3">E-mail</p>
           <p className="text-xs mt-2 text-gray-600">abb@example.com</p>
